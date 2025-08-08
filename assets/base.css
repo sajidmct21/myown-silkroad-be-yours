@@ -3675,6 +3675,13 @@ span[data-highlight="underline"] mark svg path {
     format("woff");
 }
 
+/* Helvatica 700 */
+@font-face {
+  font-family: "Helvetica-700";
+
+  src: url("https://cdn.shopify.com/s/files/1/0714/2758/8264/files/Helvetica-Bold_f7405ceb-fd45-467b-a342-5fb87a6da5df.woff?v=1754650342") format("woff");
+}
+
 /* Cabin semibold 600 */
 @font-face {
   font-family: "Cabin-600";
@@ -3683,6 +3690,13 @@ span[data-highlight="underline"] mark svg path {
     format("woff");
 }
 
+/* Philosopher 400 */
+@font-face {
+  font-family: "Philosopher-400";
+
+  src: url("https://cdn.shopify.com/s/files/1/0714/2758/8264/files/Philosopher-Regular.woff?v=1754650233")
+    format("woff");
+}
 .announcement-text {
   font-family: Helvetica-400;
   font-weight: 400;
