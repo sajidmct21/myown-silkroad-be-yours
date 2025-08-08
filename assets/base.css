@@ -3675,6 +3675,14 @@ span[data-highlight="underline"] mark svg path {
     format("woff");
 }
 
+/* Cabin semibold 600 */
+@font-face {
+  font-family: "Cabin-600";
+
+  src: url("https://cdn.shopify.com/s/files/1/0714/2758/8264/files/Cabin-SemiBold_25ee50d5-17c1-41fe-b6a9-3b0957badf82.woff?v=1754649205")
+    format("woff");
+}
+
 .announcement-text {
   font-family: Helvetica-400;
   font-weight: 400;
