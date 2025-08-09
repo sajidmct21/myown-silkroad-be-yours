@@ -3703,3 +3703,24 @@ span[data-highlight="underline"] mark svg path {
   font-size: 17px !important;
   line-height: 100%;
 }
+
+
+/* Image with text */
+.grid__item .image-with-text__content h2{
+  font-family: Philosopher-400;
+}
+
+.grid__item .image-with-text__content .image-with-text__text p{
+  font-family: Helvetica-400;
+}
+
+.grid__item .image-with-text__content .button{
+  border-radius: 100px;
+  background-color: #2B1A13;
+  color: #fff;
+  font-family: Helvetica-700;
+  align-self: flex-end;
+}
+.grid__item .image-with-text__content .button[aria-disabled=true]{
+  opacity: 1;
+}
