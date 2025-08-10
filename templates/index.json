@@ -265,12 +265,73 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "image_with_text_yGb7bD": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_M99g6C": {
+          "type": "heading",
+          "settings": {
+            "heading": "Handkerchief",
+            "heading_size": "h1",
+            "heading_tag": "h2"
+          }
+        },
+        "text_hE9Ye3": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Handkerchiefs are small, reusable fabric squares for personal use or style. Made from materials like cotton or linen, they’re eco-friendly alternatives to tissues.</p>",
+            "text_size": "typeset2",
+            "secondary_color": false
+          }
+        },
+        "button_BYFCeC": {
+          "type": "button",
+          "settings": {
+            "button_label": "SHOP Handkerchief",
+            "button_link": "",
+            "button_size": "medium",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_M99g6C",
+        "text_hE9Ye3",
+        "button_BYFCeC"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/Mask_group29.png",
+        "image_position": "center center",
+        "layout": "text_first",
+        "text_box_position": "middle",
+        "text_alignment": "center",
+        "image_ratio": "650px",
+        "enlarge_content": false,
+        "full_width": false,
+        "show_divider": false,
+        "image_behavior": "none",
+        "mobile_layout": "image_first",
+        "mobile_text_alignment": "left",
+        "mobile_image_ratio": "auto",
+        "enable_video_looping": false,
+        "use_custom_colors": false,
+        "colors_button_label": "#ffffff",
+        "colors_button_background": "#1a1b18",
+        "colors_text": "#212326",
+        "colors_background": "#ffffff",
+        "gradient_background": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
     "image_with_text_bziKEy",
     "guarantees_f9iEbW",
     "image_with_text_aqMLhE",
-    "image_with_text_TGzhdC"
+    "image_with_text_TGzhdC",
+    "image_with_text_yGb7bD"
   ]
 }
