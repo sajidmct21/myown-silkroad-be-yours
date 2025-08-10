@@ -45,6 +45,7 @@
       ],
       "name": "t:sections.image-with-text.presets.name",
       "settings": {
+        "custom-class": "banner",
         "image": "shopify://shop_images/Mask_group1.png",
         "image_position": "center center",
         "layout": "image_first",
@@ -182,6 +183,7 @@
       ],
       "name": "t:sections.image-with-text.presets.name",
       "settings": {
+        "custom-class": "",
         "image": "shopify://shop_images/image_28.png",
         "image_position": "20% 50%",
         "layout": "text_first",
@@ -196,6 +198,7 @@
         "mobile_text_alignment": "left",
         "mobile_image_ratio": "auto",
         "enable_video_looping": false,
+        "video_url": "",
         "use_custom_colors": false,
         "colors_button_label": "#ffffff",
         "colors_button_background": "#1a1b18",
@@ -242,6 +245,7 @@
       ],
       "name": "t:sections.image-with-text.presets.name",
       "settings": {
+        "custom-class": "",
         "image": "shopify://shop_images/Mask_group29.png",
         "image_position": "center center",
         "layout": "image_first",
@@ -256,6 +260,7 @@
         "mobile_text_alignment": "left",
         "mobile_image_ratio": "auto",
         "enable_video_looping": false,
+        "video_url": "",
         "use_custom_colors": false,
         "colors_button_label": "#ffffff",
         "colors_button_background": "#1a1b18",
@@ -302,6 +307,7 @@
       ],
       "name": "t:sections.image-with-text.presets.name",
       "settings": {
+        "custom-class": "",
         "image": "shopify://shop_images/Mask_group30.png",
         "image_position": "center center",
         "layout": "text_first",
@@ -316,6 +322,7 @@
         "mobile_text_alignment": "left",
         "mobile_image_ratio": "auto",
         "enable_video_looping": false,
+        "video_url": "",
         "use_custom_colors": false,
         "colors_button_label": "#ffffff",
         "colors_button_background": "#1a1b18",
