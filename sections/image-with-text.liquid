@@ -55,7 +55,7 @@
   endif
 -%}
 
-<div class="section--padding{% if section.settings.show_divider %} section--divider{% endif %}">
+<div class="{{  section.settings.custom-class }} section--padding{% if section.settings.show_divider %} section--divider{% endif %}">
   <div class="image-with-text{% if section.settings.use_custom_colors and section.settings.colors_background != settings.colors_background %} image-with-text--colored{% else %} image-with-text--alt{% endif %}{% if section.settings.enlarge_content %} image-with-text--enlarge{% endif %} page-width{% if section.settings.full_width %} page-width--full-width{% endif %}">
     <div class="{{ grid_class }} grid grid--gapless grid--1-col grid--2-col-tablet">
       <div class="grid__item">
@@ -244,6 +244,11 @@
   "tag": "section",
   "class": "section",
   "settings": [
+    {
+      "type": "text",
+      "id": "custom-class",
+      "label": "Custom CSS Class"
+    },
     {
       "type": "image_picker",
       "id": "image",
