@@ -3679,7 +3679,8 @@ span[data-highlight="underline"] mark svg path {
 @font-face {
   font-family: "Helvetica-700";
 
-  src: url("https://cdn.shopify.com/s/files/1/0714/2758/8264/files/Helvetica-Bold_f7405ceb-fd45-467b-a342-5fb87a6da5df.woff?v=1754650342") format("woff");
+  src: url("https://cdn.shopify.com/s/files/1/0714/2758/8264/files/Helvetica-Bold_f7405ceb-fd45-467b-a342-5fb87a6da5df.woff?v=1754650342")
+    format("woff");
 }
 
 /* Cabin semibold 600 */
@@ -3704,23 +3705,34 @@ span[data-highlight="underline"] mark svg path {
   line-height: 100%;
 }
 
-
 /* Image with text */
-.grid__item .image-with-text__content h2{
+.grid__item .image-with-text__content h2 {
   font-family: Philosopher-400;
 }
 
-.grid__item .image-with-text__content .image-with-text__text p{
+.grid__item .image-with-text__content .image-with-text__text p {
   font-family: Helvetica-400;
 }
 
-.grid__item .image-with-text__content .button{
+.grid__item .image-with-text__content .button {
   border-radius: 100px;
-  background-color: #2B1A13;
+  background-color: #2b1a13;
   color: #fff;
   font-family: Helvetica-700;
   align-self: flex-end;
 }
-.grid__item .image-with-text__content .button[aria-disabled=true]{
+.grid__item .image-with-text__content .button[aria-disabled="true"] {
   opacity: 1;
+}
+
+/* Gurantees  */
+.guarantees .h3 {
+  font-family: Helvetica-700;
+  font-size: 18px;
+}
+@media screen and (min-width: 750px) {
+  .guarantees--horizontal .guarantee__item {
+    justify-content: center;
+    align-items: center;
+  }
 }
