@@ -152,7 +152,7 @@
         "heading_pPHckt": {
           "type": "heading",
           "settings": {
-            "heading": "Image with text",
+            "heading": "Frames",
             "heading_size": "h1",
             "heading_tag": "h2"
           }
@@ -183,7 +183,7 @@
       "name": "t:sections.image-with-text.presets.name",
       "settings": {
         "image_position": "center center",
-        "layout": "image_first",
+        "layout": "text_first",
         "text_box_position": "middle",
         "text_alignment": "left",
         "image_ratio": "650px",
