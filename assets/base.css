@@ -3730,6 +3730,9 @@ span[data-highlight="underline"] mark svg path {
   font-family: Helvetica-700;
   font-size: 18px;
 }
+.guarantee__item .rte{
+      color: rgba(var(--color-foreground), 1) !important;
+}
 .guarantees .rte p {
   font-family: Helvetica-400;
   font-size: 16px;
